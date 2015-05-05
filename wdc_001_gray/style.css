@@ -1,0 +1,203 @@
+/* 
+Theme Name: WDC_001_grey
+Description: WDC_001_grey developed by WebdesignCreators
+Version: 2.1
+Date: June 10th, 2009
+Author: WebdesignCreators
+Author URL: http://www.Webdesigncreators.com
+*/
+
+/*============== Start WDC special styles for WDC_001_grey =================*/
+
+html, body {color: #3f2f2f; background-color: #dad9d9; margin: 0; padding: 0; font-size:9pt; font-family: Verdana, Arial, Helvetica, sans-serif;}
+#wdc_main_color {float:left; width: 948px; border-left: 2px solid #a3a3a3; border-right: 2px solid #a3a3a3; background-color:#ffffff;}
+#wdc_main_bg {width: 948px; margin-left:auto; margin-right:auto; background: url(images/blocks/all/wdc_001_grey_block_left_bg.gif) repeat-y; border-right: 2px solid #a3a3a3;}
+#wdc_bgtop {height: 23px;	background: url(images/top/wdc_001_grey_top_bg.gif) repeat-x;}
+#wdc_left_top {float:left; width:203px; height: 23px;	border-right: 2px solid #a3a3a3; background: url(images/top/wdc_001_grey_left_top.gif) no-repeat}
+#wdc_left_top_left_point {float:left; width:22px; height: 23px;	background: url(images/top/wdc_001_grey_top_point.gif) no-repeat}
+#wdc_left_top_right_point {float:right; width:22px; height: 23px;	background: url(images/top/wdc_001_grey_top_point.gif) no-repeat}
+#wdc_header_left {float:left; padding-left:10px; padding-top:10px; padding-right:10px; height:130px; width:183px; background: url(images/blocks/left/wdc_001_grey_block_left_bg.gif) repeat-y}
+#wdc_header_right {float:right; height:140px; width:743px; border-left: 2px solid #a3a3a3; background: url(images/header/wdc_001_grey_header.gif) no-repeat;}
+#wdc_header_slogan {float:right; vertical-align:top; text-align:right; padding-right:165px;} 
+#wdc_content_leftblock {float:right; width:77%; margin-left:0px; margin-right:8px; height:auto; line-height:100%;} 
+#wdc_content_leftblock_rightblock {float:left; width:55%; margin-bottom:5px; margin-left:8px; margin-top:3px; line-height:100%;} 
+#wdc_content_no_leftblock_no_rightblock {float:right; width:79%; margin-bottom:5px; margin-left:8px; margin-top:3px; line-height:100%;} 
+#wdc_footer_bar {float:left; height:29px;}
+#wdc_footer_bar_bg {float:left; height:29px; background: url(images/footer/wdc_001_grey_footer_bg.gif) repeat-x;}
+#wdc_footer {float:right; width:745px; line-height:29px; height:29px; text-align:center; vertical-align:middle;}
+#wdc_footer_img {float:left; width:203px; text-align:left; height:29px; vertical-align:bottom; background-image: url(images/footer/wdc_001_grey_footer.gif); background-repeat: no-repeat;}
+#wdc_footer_more {float:left; background-color:#e6e6e6; width:100%; text-align:center;}
+
+/*============== End WDC special styles for WDC_001_grey =================*/
+
+/*============== Start link styles Header menu for WDC_001_grey =================*/
+
+#wdc_navbar {float:right; text-align:center; height:34px; width:743px; border-left: 2px solid #a3a3a3; background: url(images/navi/wdc_001_grey_navi_bg.gif) repeat-x}
+#wdc_navbar a {padding-left:15px; padding-right:15px; line-height:34px;}
+#wdc_navbar_links .active {float:left; font-size:1.3em; color:#000000; text-align:center; height:34px;}
+
+#wdc_navbar_dot_left {float:left; width:22px; height:34px; background: url(images/navi/wdc_001_grey_dot.gif) no-repeat;}
+#wdc_navbar_dot_right {float:right; width:22px; height:34px; background: url(images/navi/wdc_001_grey_dot.gif) no-repeat;}
+
+
+a.main_link {height:34px; float:left; text-align:center; font-size:1.3em; font-weight:bold; color: #929191;}
+a.main_link:hover {color: #353535;}
+
+/*============== Start link styles Header menu for WDC_001_grey =================*/
+
+/*============== Start link styles for WDC_001_grey =================*/
+
+a {color: #707070; text-decoration: none; font-weight: bold; background-color: transparent;}
+a:hover {color: #353535;}
+a.gray {float:left; padding-left:20px; padding-right:20px; text-align: center; font-size: 1.3em; font-weight: bold; color: #707070; padding-top:8px;}
+a.gray:hover {color: #353535;}
+
+/*============== End link styles for WDC_001_grey =================*/
+
+/*============== Start text styles for WDC_001_grey =================*/
+
+h1 {font-size:1.8em; color:#a3a3a3; font-weight: bold;}
+h2 {font-size:1.3em;}
+h3 {font-size:1.2em;}
+h4 {font-size:1.1em;}
+h5 {font-size:1em;}
+ul { margin: 2px; padding: 2px; list-style: disc inside; text-align: left;}
+ol { margin: 2px; padding: 2px; list-style: decimal inside; text-align: left;}
+li { margin-left: 2px; color: #3f2f2f;}
+
+/*============== End text styles for WDC_001_grey =================*/
+
+/*============== Start Xoops block styles for WDC_001_grey =================*/
+#leftcolumn {width: 203px; float:left; vertical-align: top; font-size:1em; background-image: url(images/blocks/left/wdc_001_grey_block_left_bg.gif); background-repeat: repeat-y; }
+#leftcolumn .blockTitle {text-align:center; line-height:34px; height:34px; vertical-align:middle; width:203px; color: #707070; font-size:1.3em; font-weight:bold; background: url(images/blocks/left/wdc_001_grey_leftblock_top.gif) repeat-x;}
+#leftcolumn .blockContent {margin-left:0px; padding-top:8px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; background: url(images/blocks/left/wdc_001_grey_block_left_bg.gif) repeat-y; line-height: 1.2em;}
+#leftcolumn_bottom_top {float:left; width:203px; height:22px; border-right: 2px solid #a3a3a3; vertical-align:bottom; background: url(images/blocks/left/wdc_001_grey_leftblock_bottom_top.gif) no-repeat;}
+
+#centercolumn {float:left; font-size: 1em; width:100%;}
+#centercolumn th {background-color: #c0c0c0; color: #3f2f2f; vertical-align: middle; padding-top:5px; padding-bottom:5px;}
+#centercolumn th a {background-color: #c0c0c0; color: #3f2f2f; vertical-align: middle; padding-top:5px; padding-bottom:5px;}
+#centercolumn th a:hover {background-color: #353535; color: #e04d31; vertical-align: middle; padding-top:5px; padding-bottom:5px;}
+
+#centerCcolumn, #bottomCcolumn {float:left; width:100%; margin-left:0px; margin-right:0px; margin-top:5px;}
+#centerCcolumn .blockTitle, #bottomCcolumn .blockTitle {text-align:center; line-height:34px; height:34px; vertical-align:middle; color: #707070; font-size:1.3em; font-weight:bold; border-left: 2px solid #a3a3a3; border-right: 2px solid #a3a3a3; background: url(images/blocks/all/wdc_001_grey_allblocks_top.gif) repeat-x;}
+#centerCcolumn .blockContent, #bottomCcolumn .blockContent {border-left:2px solid #a3a3a3; border-right:2px solid #a3a3a3; border-bottom: 2px solid #a3a3a3; padding:10px; line-height: 1.2em;}
+#centerCcolumn .blockFooter, #bottomCcolumn .blockFotter {margin-bottom:5px;}
+
+#centerLcolumn, #bottomLcolumn {float:left; margin-left:0px; margin-right:5px; margin-bottom:5px; width:49%;}
+#centerRcolumn, #bottomRcolumn {float:right; margin-left:5px; margin-right:0px; margin-bottom:5px; width:49%;}
+#centerLcolumn .blockTitle, #bottomLcolumn .blockTitle, #centerRcolumn .blockTitle, #bottomRcolumn .blockTitle {text-align:center; line-height:34px; height:34px; vertical-align:middle; color: #707070; font-size:1.3em; font-weight:bold; border-left: 2px solid #a3a3a3; border-right: 2px solid #a3a3a3; background: url(images/blocks/all/wdc_001_grey_allblocks_top.gif) repeat-x;}
+#centerLcolumn .blockContent,  #bottomLcolumn .blockContent, #centerRcolumn .blockContent, #bottomRcolumn .blockContent {border-left: 2px solid #a3a3a3; border-right: 2px solid #a3a3a3; border-bottom: 2px solid #a3a3a3; padding: 10px; line-height: 1.2em;}
+
+#centerLcolumn .blockFooter, #bottomLcolumn .blockFooter {margin-bottom:5px;}
+#centerRcolumn .blockFooter, #bottomRcolumn .blockFooter {margin-bottom:5px;}
+
+#content {padding-left:10px; padding-right:10px; text-align:left; padding-top:10px;}
+
+#contentblockTitle {padding-top: 10px; padding-left:15px;  background-image: url(images/blocks/middle_top.gif); background-repeat: no-repeat; color: #ffffff; font-size: 16pt; font-weight: bold;}
+#contentblockContent {padding-left: 8px; padding-top: 0px; background-image: url(images/blocks/middle_middle.gif); background-repeat: repeat-y; line-height: 1.2em;}
+#contentblockFooter {padding-bottom:10px; background-image: url(images/blocks/middle_bottom.gif); background-repeat: no-repeat; color: #ffffff; font-weight: bold;}
+
+#rightcolumn {float:right; margin-top:8px; margin-right:8px; vertical-align: top; width:21%; font-size:1em;}
+#rightcolumn th {background-color: transparent; color: #fff; vertical-align: middle;}
+#rightcolumn .blockTitle {text-align:center; line-height:34px; height:34px; vertical-align:middle; color: #707070; font-size:1.3em; font-weight:bold; border-left: 2px solid #a3a3a3; border-right: 2px solid #a3a3a3; background: url(images/blocks/all/wdc_001_grey_allblocks_top.gif) repeat-x;}
+#rightcolumn .blockContent {border-left: 2px solid #a3a3a3; border-right: 2px solid #a3a3a3; border-bottom: 2px solid #a3a3a3; padding: 10px; line-height: 1.2em;}
+
+#mainmenu a {background-color: transparent; display: block; margin: 0; padding: 4px;}
+#mainmenu a:hover {background-color: transparent; color:#353535;}
+#mainmenu a.menuTop {padding-left: 3px; border-top: 0px solid #c0c0c0; border-right: 0px solid #666; border-bottom: 0px solid #666; border-left: 0px solid #c0c0c0;}
+#mainmenu a.menuMain {padding-left: 3px; border-right: 0px solid #666; border-bottom: 0px solid #666; border-left: 0px solid #c0c0c0;}
+#mainmenu a.menuSub {padding-left: 9px; border-right: 0px solid #666; border-bottom: 0px solid #666; border-left: 0px solid #c0c0c0;}
+
+#usermenu {	font-size : .9em;}
+#usermenu a {background-color: transparent; display: block; margin: 0; padding: 2px; border-right: 0px solid #666; border-bottom: 0px solid #666; border-left: 0px solid #c0c0c0; font-weight : normal;}
+#usermenu a:hover {background-color: transparent; color:#353535;}
+#usermenu a.menuTop {border-top: 0px solid #c0c0c0;}
+#usermenu a.highlight {background-color: #fcc;}
+
+/*============== End Xoops block styles for WDC_001_grey =================*/
+
+/*============== Start Xoops styles for WDC_001_grey =================*/
+
+table {width: 100%;}
+table td {padding: 0; border-width: 0; vertical-align: top; }
+.table_bg {background-image: url(images/header/bg.gif); background-repeat: repeat-x;}
+
+.item {border: 1px solid #666;}
+.itemHead {padding: 3px; background-color: #2A75C5; color: #fff;}
+.itemInfo {text-align: right; padding: 3px; background-color: #efefef}
+.itemTitle a {font-size: 1.2em; font-weight: bold; font-variant: small-caps; color: #fff; background-color: transparent;}
+.itemPoster {font-size: .9em; font-style:italic;}
+.itemPostDate {font-size: .9em; font-style:italic;}
+.itemStats {font-size: .9em; font-style:italic;}
+.itemBody {padding-left: 5px;}
+.itemText {margin-top: 5px; margin-bottom: 5px; line-height: 1.5em;}
+.itemText:first-letter {font-size: 1.3em; font-weight: bold;}
+.itemFoot {text-align: right; padding: 3px; background-color: #efefef;}
+.itemAdminLink {font-size: .9em;}
+.itemPermaLink {font-size: .9em;}
+
+#header {margin:0; padding:0;	height:80px;	background:#2A75C5 url(xo-banner_bg.png) repeat-x left top;	padding:2px;	color:#fff;	border:1px solid #000;}
+#headerbanner {width: 100%; vertical-align: middle; text-align:center;}
+#headerlogo img {padding: 0;}
+#headerbar {border-bottom: 1px solid #ddd; background-image: url(hbar.gif);}
+
+caption {font-weight: bold;}
+th, thead {padding : 2px; color: #fff; vertical-align : middle;}
+.outer {border: 0px solid #c0c0c0;}
+.head {font-weight: bold;	background-repeat: repeat-x; background-position: left;	color: #373737;	height: 24px;	line-height: 22px;	text-align: center;	background-color: #bababa;	border: 1px solid #a3a3a3;}
+.even{background-color: #f2f2f2;	padding: 5px;	border: 1px solid #a3a3a3;}
+.odd{background-color: #ffffff;	padding: 5px;	border: 1px solid #a3a3a3;}
+.foot {padding: 5px; font-weight: bold;}
+tr.even td {padding: 5px;}
+tr.odd td {padding: 5px;}
+tr.foot td {padding: 5px; color:inherit; font-weight: bold;}
+
+.errorMsg,.confirmMsg, .resultMsg  { padding: .8em; text-align:center; margin-bottom: 1em; border: 2px solid #ddd;}
+.errorMsg  { background-color: #FBE3E4; color: #D12F19; border-color: #FBC2C4; }
+.confirmMsg { background-color: #FFF6BF; color: #817134; border-color: #FFD324; }
+.resultMsg { background-color: #E6EFC2; color: #529214; border-color: #C6D880; }
+.errorMsg a { background-color: transparent; color: #D12F19; }
+.confirmMsg a { background-color: transparent; color: #817134; }
+.successMsg a { background-color: transparent; color: #529214; }
+
+.xoopsCode { background: #fff; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; padding: 0 6px 6px 6px; height: 200px; overflow: auto; font-size:.9em;}
+.xoopsQuote { background: #fff; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; padding: 0 6px 6px 6px; font-size:.9em;}
+blockquote {font-style : italic; line-height:1.4em;} 
+
+.comTitle {font-weight: bold; margin-bottom: 2px;}
+.comText {padding: 2px;}
+.comUserStat {font-size: .9em; color: #2A75C5; font-weight:bold; border: 1px solid #c0c0c0; background-color: #fff; margin: 2px; padding: 2px;}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {margin-left: 2px; margin-top: 10px; color: #2A75C5; font-weight:bold; font-size: .9em;}
+.comUserRank {margin: 2px;}
+.comUserRankText {font-size: .9em;font-weight:bold;}
+.comUserRankImg {border: 0;}
+.comUserName a {color: #fff;}
+.comUserImg {margin: 2px;}
+.comDate {font-weight: normal; font-style: italic; font-size: .8em;}
+.comDateCaption {font-weight: bold; font-style: normal;}
+
+.style1 {border-color: #c0c0c0; border-width: 0;}
+
+.xo-formButtons, .xo-formButton, button {padding:.25em; text-align:center;}
+
+/*============== End Xoops styles for WDC_001_grey =================*/
+
+/*============== Start input styles for WDC_001_grey =================*/
+
+input.formButton {}
+
+input[type=submit], input[type=reset], input[type=button], .xo-formbuttons, .formButton, button {margin:3px 0 3px 0; color:#405A80; font-size:.9em; font-weight:bold; border:1px solid #ccc;cursor:pointer;}
+input[type=submit]:hover, input[type=reset]:hover, input[type=button]:hover,.xo-formbuttons:hover, .formButton:hover, button:hover {color:#333; cursor: pointer;}
+
+
+/*============== End input styles for WDC_001_grey =================*/
+
+/*============== Start Styles in userbar.html for WDC_001_grey =================*/
+
+#xo-userbar {bottom:3px; text-align:left;}
+#xo-userbar form {display:inline; padding:0;}
+#xo-userbar img {width:21px; height:20px;}
+#xo-uname {font-weight:bold; font-size:1.1em;}
+
+/*============== End Styles in userbar.html for WDC_001_grey =================*/

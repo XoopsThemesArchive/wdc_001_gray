@@ -1,0 +1,24 @@
+You need to include this part to your header.php
+
+Include this code:
+
+// Code for Messages
+if ( is_object($xoopsUser)){
+
+
+     list($total_messages) = $xoopsDB->fetchRow($xoopsDB->query("SELECT COUNT(*) FROM ".$xoopsDB->prefix("priv_msgs")." WHERE to_userid = ".$xoopsUser->getVar("uid").""));
+
+     list($new_messages) = $xoopsDB->fetchRow($xoopsDB->query("SELECT COUNT(*) FROM ".$xoopsDB->prefix("priv_msgs")." WHERE to_userid = ".$xoopsUser->getVar("uid")." AND read_msg=0"));
+
+     $lang_inbox = _BK_USER_INBOX;
+
+     $xoopsTpl->assign(array('xoops_total_msg' => $total_messages, 'xoops_new_msg' => $new_messages, 'xoops_inbox' => $lang_inbox));
+
+
+}
+// Code for Messages
+
+
+at the end of your header.php
+}
+

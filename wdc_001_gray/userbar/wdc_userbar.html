@@ -1,0 +1,36 @@
+<div id="xo-userbar">
+    <{if !$xoops_isuser}>
+        <form method="post" action="<{$xoops_url}>/user.php op=login">
+            <{$smarty.const._USERNAME}><br />
+            <input name="uname" type="text" /><br />
+            <{$smarty.const._PASSWORD}><br />
+            <input name="pass" type="password"/>
+            <input type="hidden" name="xoops_redirect" value="<{$smarty.server.REQUEST_URI}>" />
+
+            <{if $lang_siteclosemsg}>
+                <input type="hidden" name="xoops_login" value="1" />
+            <{/if}>
+            <button type="submit"><{$smarty.const._LOGIN}></button>
+        </form>
+        <{if !$lang_siteclosemsg}>
+            &nbsp;<strong>oder</strong>&nbsp;<a href="<{$xoops_url}>/register.php" title="<{$smarty.const._REGISTER}>"><{$smarty.const._REGISTER}></a>
+        <{/if}>
+    <{else}>
+        <strong><{$smarty.const._WDC_HELLO}> <a href="<{$xoops_url}>/user.php"><{$xoops_uname}></a>, <{$smarty.const._WDC_WELCOME_BACK}> <{$xoops_sitename}>.</strong>
+        <{xoInboxCount assign=pmcount}>
+        <a href="<{$xoops_url}>/viewpmsg.php" title="<{$smarty.const._THEME_INBOX}>">
+        <{if $pmcount}>
+        <br /><br /><{$smarty.const._THEME_INBOX_NOTREAD}>
+        <{else}>
+        <br /><br /><{$smarty.const._THEME_INBOX}>
+        <{/if}>
+        </a>
+        <br /><a href="<{$xoops_url}>/notifications.php" title="<{$smarty.const._THEME_NOTIFICATIONS}>"><{$smarty.const._THEME_NOTIFICATIONS}></a>
+        <br /><a href="<{$xoops_url}>/user.php" title="<{$smarty.const._THEME_PROFILE}>"><{$smarty.const._THEME_PROFILE}></a>
+
+        <{if $xoops_isadmin}>
+        <br /><a href="<{$xoops_url}>/admin.php" title="<{$smarty.const._THEME_ADMINISTRATION}>"><{$smarty.const._THEME_ADMINISTRATION}></a>
+        <{/if}>
+        <br /><a href="<{$xoops_url}>/user.php op=logout" title="<{$smarty.const._THEME_LOGOUT}>" ><{$smarty.const._THEME_LOGOUT}></a>
+    <{/if}>
+</div>
